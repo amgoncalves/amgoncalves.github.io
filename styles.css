@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    font: 14px Helvetica, Courier, sans-serif;
+    color: #444;
+    background-color: #CCC;
+    background-image: url("circles-light.png");
+}
+
+a,
+a:visited,
+a:active
+{
+    color: #9966CC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #E4D7F1;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+header,
+footer,
+.content {
+    width: 75%;
+    max-width: 700px;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #FFF;
+    text-align: center;
+}
+
+header {
+    padding: 20px 10px 10px 10px;
+}
+
+footer {
+    padding: 10px 10px 20px 10px;
+}
+
+@media (min-width: 480px) {
+    .content {
+	width: 75%;
+    }
+}
+
